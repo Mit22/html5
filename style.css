@@ -435,3 +435,11 @@ button {
 .galAniback {
  transform: rotateY(180deg);
 }
+
+.gal2 {
+    transition: 1s;
+}
+
+.gal2:hover {
+  transform: scale(1.2);
+}
