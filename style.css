@@ -1,0 +1,437 @@
+
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  float: left;
+}
+
+.headerMain {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.headerTop {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 50px;
+}
+
+.logo {
+  display: block;
+}
+
+.headerContact {
+  padding-left: 60px;
+  height: 51px;
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 15px;
+  color: #6a6a6a;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+.headerWork {
+  background: url(img/clock.png) no-repeat left center;
+}
+
+.headerTopWrap {
+  font-family: "Open Sans Bold", sans-serif;}
+
+.headerMail {
+  background: url(img/mailUs.png) no-repeat left center;
+}
+
+.headerCall {
+  background: url(img/callUs.png) no-repeat left center;
+}
+
+.headerDivider {
+  background-color: rgba(194, 194, 194, 0.31);
+  height: 2px;
+  margin-top: 20px;
+}
+
+.headerBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headerNav a{
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 20px;
+  color: #6c6c6c;
+  text-decoration: none;
+  padding: 0 20px;
+  display: inline-block;
+  height: 90px;
+  line-height: 90px;
+}
+
+.headerNav a:first-child {
+  padding-left: 0px;
+}
+
+.headerNav a:hover {
+  color: #262626;
+}
+
+
+.headerSocial a {
+  text-decoration: none;
+  font-size: 23.34px;
+  color: #191919;
+  margin: 0 5px;
+  display: inline-block;
+  height: 90px;
+  line-height: 90px;
+}
+
+.headerSocial a:last-child {
+  margin-right: 100px;
+}
+
+.mainSlider {
+  width: calc(100% );
+  float: left;
+  height: 640px;
+  background: url(img/layer-10.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.mainSliderText {
+  text-align: center;
+  float: left;
+  color: #474747;
+  margin-left: 150px;
+  margin-top: 180px;
+}
+
+.mainSliderTextBold {
+  font-family: "Montserrat Medium", sans-serif;
+  font-size: 48px;
+}
+
+.mainSliderTextNorm {
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 17px;
+  margin-top: 37px;
+  margin-bottom: 42px;
+
+}
+
+button {
+  background-color: #1a9bdc;
+  box-shadow: -4px 11px 40px 0 rgba(0, 1, 1, 0.2);
+  width: 166px;
+  height: 47px;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 18.25px;
+}
+.advantage {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+}
+
+.advantageBlock {
+  text-align: center;
+  padding-top: 76px;
+  padding-bottom: 56px;
+
+}
+.bestTreatment {
+  background-color: #43b1d2;
+}
+.EmergencyHelp {
+  background-color: #3fb6c6;
+}
+.MedicalStaff {
+  background-color: #3cbbbb;
+}
+.QualifiedDoctors {
+  background-color: #37c3a8;
+}
+
+.advantageIcon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.bestTreatment1 {
+  background: url(img/bestTreatment.png) no-repeat center center;
+}
+.EmergencyHelp1 {
+  background: url(img/emergencyHelp.png) no-repeat center center;
+}
+.MedicalStaff1 {
+  background: url(img/medicalStuff.png) no-repeat center center;
+}
+.QualifiedDoctors1 {
+  background: url(img/qualifiedDoctors.png) no-repeat center center;
+}
+
+.advantageTextMain {
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    color: #ffffff;
+}
+
+.advantageTextNorm {
+    width: 264px;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.whyChooseUs {
+  width: 100%;
+  float: left;
+}
+
+.whyChooseUsHead {
+  font-family: "Montserrat Bold", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: #474747;
+  margin-top: 111px;
+  margin-bottom: 31px;
+}
+
+.whyChooseUsDesc {
+  text-align: center;
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 16px;
+  color: #6a6a6a;
+  margin-bottom: 25px;
+}
+.whyChooseUsInside {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 337px 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+.chooseUsInsideUnit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chooseUsInsideHead {
+  padding-left: 95px;
+  font-family: "Montserrat Bold", sans-serif;
+  font-size: 30px;
+  color: #6c6c6c;
+  height: 75px;
+  line-height: 75px;
+}
+.choose1 {
+  background: url(img/choose1.png) no-repeat left center;
+}
+.choose2 {
+  background: url(img/choose2.png) no-repeat left center;
+}
+.choose3 {
+  background: url(img/choose3.png) no-repeat left center;
+}
+.choose4 {
+  background: url(img/choose4.png) no-repeat left center;
+}
+.chooseUsInsideDesc {
+  font-family: "Open Sans Regular", sans-serif;
+  color: #6a6a6a;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.chooseUsDoctor {
+  background: url(img/chooseUsDoctor.png) no-repeat center bottom;
+  height: 598px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-self: end;
+}
+
+.numbers {
+  width: 100%;
+  float: left;
+  background: url(img/background11.jpg);
+  min-height: 792px;
+}
+.numGrid {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: inherit;
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.numBlock {
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 80px;
+
+}
+
+.numIcon {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+.num1000 {
+  background: url(img/happyCustomers.png) no-repeat center center;
+}
+.numYear {
+  background: url(img/topHospitality.png) no-repeat center center;
+}
+.numInnov {
+  background: url(img/innovateApproach.png) no-repeat center center;
+}
+.numLung {
+  background: url(img/lungReplacement.png) no-repeat center center;
+}
+
+.numLime {
+  margin: 0 auto;
+  width: 84px;
+  height: 6px;
+  background-color: #ffffff;
+}
+.numTextMain {
+    font-size: 60px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    color: #ffffff;
+}
+
+.numTextNorm {
+    padding-top: 25px;
+    font-size: 25px;
+    line-height: -0.7px;
+    color: #ffffff;
+}
+
+.gallery {
+  width: calc(100% + 40px);
+  float: left;
+  margin-left: -20px;
+  margin-right: -20px;
+  background: url(img/galleryBack.jpg) no-repeat center center;
+  background-size: cover;
+  margin-top: 100px;
+  text-align: center;
+  padding: 90px 0;
+}
+.galleryHead {
+  font-family: "Montserrat Bold", sans-serif;
+  color: #ffffff;
+  font-size: 45px;
+  margin-bottom: 38px;
+}
+.galleryDesc {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "Open Sans Regular", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 54px;
+  padding: 0 20px;
+}
+.galleryInside {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 37px;
+  grid-column-gap: 34px;
+  justify-items: center;
+}
+.galAniback {
+  width: 300px;
+  height: 150px;
+  background: red;
+}
+
+.gal0 {
+  perspective: 1000;
+}
+
+.gal0:hover .gal1 {
+  transform: rotateY(180deg);
+}
+
+.gal1 {
+   transition: 1s;
+   transform-style: preserve-3d;
+   position: relative;
+}
+.galAni,
+.galAniback {
+   backface-visibility: hidden;
+   position: absolute;
+   top: 0;
+   left: -170px;
+}
+
+.galAni {
+ z-index: 2;
+}
+.galAniback {
+ transform: rotateY(180deg);
+}
